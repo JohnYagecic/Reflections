@@ -1,0 +1,26 @@
+Since I knew that the old game ran correctly and the new game did not, the bug had to be contained in some part of the code that was different between the two.  By focusing on this different code, I could narrow down where the bug might be located.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+By focusing only on changes and correcting small blocks of code, you can take better advantage of the large blocks of code that function as intended.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+An automatic commit would increase the likelihood of saving mistakes or generating too many versions that aren't reasonably different.  On the other hand, user defined commits put the burden on the user to make sure that they follow through with a commit when their work warrants a new commit.  
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+In coding projects, different files necessarily need to function in tandem.  Therefore, it is really imperative that files that interact be saved together.  Since google docs is primarily oriented toward standard office work files, where files typically don't interact, this requirement is absent.
+
+How can you use the commands git log and git diff to view the history of files?
+
+I can use git log to see the history of commits of a program and git diff to see the differences between two specific commits (as identified by the commit ID)
+
+How might using version control make you more confident to make changes that could break something?
+
+Knowing I can always go backward to a functioning commit reduces the risk of making changes to the code.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I program primarily in R.  Although most projects are relatively few lines, I think it would be useful for collaborative projects and for developing multiple components of code.
+
