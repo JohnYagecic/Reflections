@@ -1,3 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 Git creates a hidden .git file in the directory where the repository was created.  This sets up the git file that git will use to track commits (I believe).
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area differs from the working directory in that it is explicitly part of git.  It is different from the repository in that it tees up items that will be commited.  In a complex program with multiple files, the staging area allows clear identification of items that will be comitted.
