@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Using a remote repository would be especially useful for projects that you work on from multiple locations (where there
+is more than 1 local PC involved).  Also, it would be useful for projects were multiple coders will contribute.
